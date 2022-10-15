@@ -1,0 +1,22 @@
+Documentos necessarios do cliente 
+
+nome comepleto
+
+nome da mae
+
+nome do pai
+
+Comprovante de residencia
+
+cpf
+
+rg
+
+data de nascimento
+
+email
+
+telefone fixo ou celular
+
+pessoa fisica ou juridica
+

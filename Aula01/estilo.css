@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.fundo{
+    background-image: url(./img/jornais.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* nav container */
+nav{
+    display: flex;
+    justify-content: space-around;
+    font-weight: 700;
+    font-size: 18px;
+    background-color: rgba(0,0,0,0.1);
+    padding: 20px;
+    align-items: center;
+}
+
+/* nav links */
+nav a{
+    text-decoration: none;
+    color: #fff;
+}
+nav a:hover{
+    color: #D0D5D9;
+}
+nav a:first-child{
+    text-decoration: none;
+    color: #8C6751;
+    font-size: 50px;
+
+}
+
+
+
+/* card noticias estilização */
+
+.noticias-container{
+    padding: 20px;
+   width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+.card-noticias img{
+    width: 300px;
+    height: 200px;
+}
+
+.card-noticias{
+    display: flex;
+    margin: 10px;
+    border: 1px solid rgba(0,0,0,0.2);
+    padding: 10px;
+    border-radius: 1px;
+
+}
+
+.noticias-texto{
+    margin: 0 10px;
+}
+.noticias-texto p{
+    max-width: 170px;
+    min-width: 170px;
+    margin-top: 20px;letter-spacing: 1px;
+    
+
+}
+
+.noticias-texto h2{
+   color: #a59b9b;
+}
+.noticias-texto a{
+    text-decoration: none;
+}
+
+.noticias-texto h2:hover{
+    color: #918a8a;
+}
+
+/* footer */
+.logo{
+
+    text-decoration: none;
+    color: #8C6751;
+    font-size: 50px;
+    font-weight: 700;
+
+}
+span{
+    display: inline-block;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    font-weight: 700;
+    font-size: 18px;
+    background-color: rgba(0,0,0,0.1);
+    padding: 20px;
+    align-items: center;
+
+}
+span{
+    font-size: 14px;
+}
+
+
+
+
+.formularios{
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    height: 100vh;
+}
+
+/* estilização formularios */
+
+.form-texto h2{
+    font-size: 50px;
+}
+form{
+    background-color: rgba(228, 202, 202, 0.2);
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    height: 100vh;
+} 
+
+form input{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 40px;
+    margin: 10px auto;
+}
+
+.slide-cotnainer{
+    justify-content: center;
+    margin: 0 auto;
+    width: 1000px;
+display: none;
+}
+
+.slide-cotnainer img{
+    width: 100%;
+    
+}
