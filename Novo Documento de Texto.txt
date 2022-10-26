@@ -20,3 +20,29 @@ telefone fixo ou celular
 
 pessoa fisica ou juridica
 
+
+
+
+1 criar um sistema idenficiando nome salario
+depois que salario for identificado verificar quais descontos se aplicam no valor
+exemplo inss
+e desconto de transporte
+
+
+--------X---------X-X-X-X-X--X----X-X-X-X-X--X-X-X
+
+criei um menu
+{
+- opção dados do funcionario
+nome 
+salario
+
+2- calculo  em cima do                  LOOP EQUANTO NAO ENCERRO 3
+salario folha de pagamento  
+vt 
+inss
+slario 
+
+
+}
+3- sair
