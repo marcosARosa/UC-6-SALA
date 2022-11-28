@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto';
+}
+
+.header{
+    background-color: #f57b51;
+    color: #fff;
+    width: 100%;
+    padding: 15px;
+
+}
+
+.header .header-titos-market{
+    display: flex;
+    align-items: center;
+}
+
+.header .header-titos-market .menu{
+    margin-left: 25px;  
+}
+
+.header .header-titos-market .menu .item-menu{
+    text-decoration: none;
+    color: #222;
+    background-color: #f6eedf;
+    margin-left: 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.header .header-titos-market .operador{
+    position: absolute;
+    right: 15px;
+}
+.header .header-titos-market .operador span{
+    font-weight: 300;
+}
+
+/* EStilização Frente de Caixa */
+
+main .cupom-produto{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    width: 100%;
+}
+
+main .cupom-produto .cupom-fiscal{
+    width: 65%;
+    height: 565px;
+    border: 2px solid #ddd;
+}
+
+main .cupom-produto .imagem-produto{
+    width: 34%;
+    height: 565px;
+    border: 2px solid #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .cupom-produto .imagem-produto #produto-img{
+    height: 350px;
+}
+
+main .info-codigo{
+    background-color: #f57b51;
+    color: #fff;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .info-codigo .input-codigo{
+    font-size: 25px;
+    padding: 7px 15px;
+    border: 2px solid #ccc;
+    width: 400px;
+}
+
+/* Gestao de Produtos */
+
+.gestaop-container{
+    display: flex;
+    width: 100%;   
+    padding: 10px;
+}
+.gestao-produtos button{
+    width: 120px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+.gestao-produtos{
+    border: solid 2px #f57b51;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.gestao-produtos h2{
+    margin: 10px;
+}
+.gestao-produtos input{
+   display: flex;
+   margin: 10px;
+   padding: 10px;
+}
+.box p{
+    background-color: #f57b51;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 10px 50px;
+}
+
+.pordutos-cadastrados{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 1000px;
+    margin-top: 10px;
+}
+
+.pordutos-cadastrados-c{
+    border: solid 2px #f57b51;
+    border-radius: 5px;
+    margin-top: 50px;
+    text-align: center;
+    position: absolute;
+    left: 30%;
+    top: 70px;
+    height: 295px;
+}
+.pordutos-cadastrados-c h2{
+    margin-top: 20px ;
+}
+
+/* Gestao Estoque */
+.gestao-estoque-c{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.gestao-categorias{
+    display: flex;
+  gap: 70px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 50px;
+  border: solid 2px #f57b51;
+  height: 500px;
+}
+.gestao-categorias div, p{
+    display: block;
+    background-color: #f57b51;
+    border-radius: 5px;
+    padding: 5px 35px;
+}
+
